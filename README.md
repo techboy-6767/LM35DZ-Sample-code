@@ -7,6 +7,7 @@ The required materials are:
 * 104 Ceramic Capacitor
 * Led
 * Resistor(220 Ohms for best result if not red)
+
 We also need the input voltage to be exact 5 volts for this code to work, else you need to change the line 45 to -> float milliVolts = (avgRaw * x) / 1024.0; (change x to the value measured by using an multimeter)
 The pinout is shown in the diagram:
 <img width="1045" height="662" alt="image" src="https://github.com/user-attachments/assets/4a8c0e7f-cc58-42a4-8f26-7fc0adaff297" />
